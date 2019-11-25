@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Login pageis verified Passed]]>
+    </line>
+    <line>
+      <![CDATA[Home pageis verified Passed]]>
+    </line>
+    <line>
+      <![CDATA[Zoho CRM Displaying Custom View Details pageis verified Passed]]>
+    </line>
+    <line>
+      <![CDATA[campaign detail Pageis verified Passed]]>
+    </line>
+    <line>
+      <![CDATA[campaign detail Pageis verified Passed]]>
+    </line>
+    <line>
+      <![CDATA[clone Campaign Pageis verified Passed]]>
+    </line>
+    <line>
+      <![CDATA[campaign detail Page after cloningis verified Passed]]>
+    </line>
+    <line>
+      <![CDATA[cloned campaign displayed in campaign list]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53690" started-at="2019-11-25T13:33:53 IST" finished-at="2019-11-25T13:34:47 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53690" started-at="2019-11-25T13:33:53 IST" finished-at="2019-11-25T13:34:47 IST">
+      <class name="campaignModule.CreateAndCloneCampaign">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:campaignModule.CreateAndCloneCampaign@34c4973]" name="openBrowser" is-config="true" duration-ms="9537" started-at="2019-11-25T13:33:53 IST" finished-at="2019-11-25T13:34:03 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login pageis verified Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyCloneCampaign()[pri:0, instance:campaignModule.CreateAndCloneCampaign@34c4973]" name="verifyCloneCampaign" duration-ms="35927" started-at="2019-11-25T13:34:03 IST" finished-at="2019-11-25T13:34:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Home pageis verified Passed]]>
+            </line>
+            <line>
+              <![CDATA[Zoho CRM Displaying Custom View Details pageis verified Passed]]>
+            </line>
+            <line>
+              <![CDATA[campaign detail Pageis verified Passed]]>
+            </line>
+            <line>
+              <![CDATA[campaign detail Pageis verified Passed]]>
+            </line>
+            <line>
+              <![CDATA[clone Campaign Pageis verified Passed]]>
+            </line>
+            <line>
+              <![CDATA[campaign detail Page after cloningis verified Passed]]>
+            </line>
+            <line>
+              <![CDATA[cloned campaign displayed in campaign list]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCloneCampaign -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:campaignModule.CreateAndCloneCampaign@34c4973]" name="tearDown" is-config="true" duration-ms="8155" started-at="2019-11-25T13:34:39 IST" finished-at="2019-11-25T13:34:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- campaignModule.CreateAndCloneCampaign -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
